@@ -1,4 +1,4 @@
-Description de toutes les fonctions de la MLX42 
+Description de toutes les fonctions de la MLX42 =)
 
 ```c
 const char* mlx_strerror(mlx_errno_t val);
