@@ -19,7 +19,7 @@ mlx_t* mlx_init(int32_t width, int32_t height, const char* title, bool resize);
         height La hauteur de la fenêtre.
         title Le titre de la fenêtre.
         resize Activer ou non le redimensionnement de la fenêtre.
-- Retourn : Un pointeur vers la structure MLX ou null en cas d'échec.
+- Return : Un pointeur vers la structure MLX ou null en cas d'échec.
 
 
 
