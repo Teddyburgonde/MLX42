@@ -10,3 +10,16 @@ en anglais du code d'erreur.
 - Return : La chaîne de caractères décrivant
 le code d'erreur.
 
+```c
+mlx_t* mlx_init(int32_t width, int32_t height, const char* title, bool resize);
+```
+- Description : Initialise une nouvelle instance de MLX42.
+- Paramètres :
+        width La largeur de la fenêtre.
+        height La hauteur de la fenêtre.
+        title Le titre de la fenêtre.
+        resize Activer ou non le redimensionnement de la fenêtre.
+- Retourn : Un pointeur vers la structure MLX ou null en cas d'échec.
+
+
+
